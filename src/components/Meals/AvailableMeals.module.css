@@ -1,0 +1,38 @@
+.meals {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: meals-appear 1s ease-out forwards;
+  }
+  
+  .meals ul {
+    list-style: circle;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes meals-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .isLoading {
+      text-align: center;
+      color: aliceblue;
+  }
+
+  .hasError {
+      text-align: center;
+      color: rgb(164, 121, 121);
+      font-size: larger;
+      font-weight: bolder;
+      font-style: italic;
+  }
+  
